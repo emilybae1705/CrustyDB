@@ -1,7 +1,6 @@
 # CrustyDB
 
-CrustyDB is an academic Rust-based relational database management system built
-by ChiData at The University of Chicago.
+CrustyDB is a Rust-based relational database management system with page-level heapfile data compaction and custom-built SQL operators.
 
 
 ## Usage
@@ -16,22 +15,6 @@ You can then check the version by doing:
 
 ```bash
 $ rustc --version
-```
-
-### CSIL / vdesk etc.
-By default the cargo/rust version on cs.linux or vdesk is out of date. However, techstaff has set up a way
-for you to use 1.65+. You must run the following command on login.
-
-```
-$ module load rust
-```
-
-You can verify this worked with
-```
-$ rustc --version
-rustc 1.65.0
-$ cargo --version
-cargo 1.65.0
 ```
 
 ## Building project
